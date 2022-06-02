@@ -23,11 +23,11 @@ PRODUCT_RELEASE_NAME := irisX8
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/LAVA/irisX8/device_irisX8.mk)
+$(call inherit-product, device/LAVA/irisX8/device_anchi.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := irisX8
-PRODUCT_NAME := lineage_irisX8
+PRODUCT_DEVICE := anchi
+PRODUCT_NAME := lineage_anchi
 PRODUCT_BRAND := LAVA
-PRODUCT_MODEL := X8
+PRODUCT_MODEL := anchi
 PRODUCT_MANUFACTURER := LAVA

@@ -20,12 +20,12 @@ include $(CLEAR_VARS)
 ALL_PREBUILT += $(INSTALLED_KERNEL_TARGET)
 
 # include the non-open-source counterpart to this file
--include vendor/LAVA/irisX8/AndroidBoardVendor.mk
+-include vendor/Lenovo/anchi/AndroidBoardVendor.mk
 
 # copy keylayout overrides
 $(shell mkdir -p $(TARGET_OUT_KEYLAYOUT); \
-    cp -pf device/LAVA/irisX8/keylayout/Generic.kl $(TARGET_OUT_KEYLAYOUT))
+    cp -pf device/Lenovo/anchi/keylayout/Generic.kl $(TARGET_OUT_KEYLAYOUT))
 
 # copy apns-conf overrides
 $(shell mkdir -p $(TARGET_OUT_ETC); \
-    cp -pf device/LAVA/irisX8/configs/apns-conf.xml $(TARGET_OUT_ETC))
+    cp -pf device/Lenovo/anchi/configs/apns-conf.xml $(TARGET_OUT_ETC))

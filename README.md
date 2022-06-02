@@ -22,9 +22,9 @@ This is a device tree for Lenovo A850+ (MT6592) which is based on MT6592 SoC. Ba
   * repo init -u git://github.com/LineageOS/android.git -b cm-14.1
   * repo sync
   * git clone https://github.com/tt468/android_device_Lenovo_anchi.git -b cm-14.1 device/lenovo/anchi
-  * git clone https://github.com/tt468/MT6592-Vendor-Blobs.git vendor/Lenovo/proprietary/
+  * git clone https://github.com/tt468/MT6592-Vendor-Blobs.git vendor/lenovo/proprietary/
   * ./unzip.sh
-  * git clone https://github.com/tt468/android_vendor_Lenovo_anchi.git vendor/Lenovo/
+  * git clone https://github.com/tt468/android_vendor_Lenovo_anchi.git vendor/lenovo/
   * cd device/lenovo/anchi/patches
   * source apply.sh 
   * source build/envsetup.sh

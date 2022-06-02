@@ -20,11 +20,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/LAVA/irisX8/irisX8-vendor.mk)
+$(call inherit-product-if-exists, vendor/Lenovo/anchi-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/LAVA/irisX8/overlay
+DEVICE_PACKAGE_OVERLAYS += device/Lenovo/anchi/overlay
 
-LOCAL_PATH := device/LAVA/irisX8
+LOCAL_PATH := device/Lenovo/anchi
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
 else
@@ -172,11 +172,11 @@ PRODUCT_PACKAGES += \
     Snap
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := full_irisX8
-PRODUCT_DEVICE := irisX8
+PRODUCT_NAME := full_anchi
+PRODUCT_DEVICE := anchi
 
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 960
+TARGET_SCREEN_WIDTH := 540
 
 PRODUCT_PACKAGES += \
     librs_jni \

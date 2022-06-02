@@ -1,5 +1,5 @@
 #
-# system.prop for Lava Iris X8
+# system.prop for Lenovo A850+
 #
 
 rild.libpath=/system/lib/mtk-ril.so
